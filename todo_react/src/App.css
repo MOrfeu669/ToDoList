@@ -1,0 +1,44 @@
+.container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.todo-header {
+  display: flex;
+  gap: 12px;
+}
+
+.todo-header input {
+  width: 100%;
+  padding: 4px 8px;
+  font-size: 18px;
+}
+
+.todo-header button {
+  font-size: 18px;
+}
+
+.todo-list li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  font-size: 24px;
+}
+
+.todo-list li button {
+  width: 8px;
+  height: 8px;
+  padding: 8px;
+  border: 1px solid white;
+  transition: backgroud-color 0.4s;
+}
+
+.todo-list li button:hover {
+  background-color: rgb(48, 49, 49);
+}
+
+.card-done {
+  text-decoration: line-through;
+}
